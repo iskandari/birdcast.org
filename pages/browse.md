@@ -8,4 +8,4 @@ background:
 permalink: /browse/
 ---
 
-Browse all data stored on the **Aloft bucket** at <https://birdcastdata.s3.amazonaws.com/>. For coverage, suggested citation and download instructions, see the [FAQ](/faq/).
+Browse all data stored on the **BirdCast bucket** at <https://birdcastdata.s3.amazonaws.com/>. For coverage, suggested citation and download instructions, see the [FAQ](/faq/).
