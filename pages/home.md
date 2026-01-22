@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Aloft
+title: BirdCast
 description: Bird movement data from NEXRAD weather radars
 background:
   img: /assets/backgrounds/home.jpg
