@@ -4,7 +4,7 @@ title: BirdCast
 description: Bird movement data from NEXRAD weather radars
 background:
   img: /assets/backgrounds/home.jpg
-  by: Leonard von Bibra
+  by: Nastia Petruk
   href: https://unsplash.com/photos/UQaht0LBiYc
 permalink: /
 ---
