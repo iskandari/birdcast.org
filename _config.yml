@@ -10,7 +10,8 @@ remote_theme: peterdesmet/petridish@3.1
 pages_on_home: # Custom attribute for _layouts/home.html
   - title: Visualize # External page
     background: /assets/backgrounds/visualize.png
-    url: https://crow.aloftdata.eu/
+    url: https://iskandari.github.io
+    baseurl: /birdcast.org
   - title: Browse # Internal page, see pages/browse.md
     background: /assets/backgrounds/browse.jpg
     url: /browse/
