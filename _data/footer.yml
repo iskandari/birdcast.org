@@ -2,7 +2,7 @@
 columns:
   - description: >
       Created by the [Cornell Lab of Ornithology](https://www.birds.cornell.edu/home/) in collaboration 
-      with the [radar aeroecology community](/about/).
+      with the [radar aeroecology community]({{ "/about/" | relative_url }}).
 
 # License
 license: >
