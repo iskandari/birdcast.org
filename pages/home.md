@@ -1,11 +1,11 @@
 ---
 layout: home
 title: Aloft
-description: Bird movement data from European weather radars
+description: Bird movement data from NEXRAD weather radars
 background:
   img: /assets/backgrounds/home.jpg
-  by: Brandon Russell
-  href: https://unsplash.com/photos/6TRUeJoOpE0
+  by: Leonard von Bibra
+  href: https://unsplash.com/photos/UQaht0LBiYc
 permalink: /
 ---
 
