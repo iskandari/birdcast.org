@@ -1,7 +1,7 @@
 # Links listed below will be included in your site navigation
 
 - text: Visualize
-  href: https://crow.aloftdata.eu/
+  disabled: true
 - text: Browse
   href: /browse/
 - text: Resources
