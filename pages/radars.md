@@ -2,9 +2,9 @@
 layout: radars # See _layouts/radars.html for page functionality
 title: Radars
 background:
-  img: https://www.pexels.com/photo/green-grass-field-under-blue-sky-4830604/
-  by: Daniele Franchi
-  href: https://www.pexels.com/photo/green-grass-field-under-blue-sky-4830604/
+  img: https://www.ncei.noaa.gov/sites/default/files/inline-images/RDA_11.jpg
+  by: National Severe Storms Laboratory
+  href: https://www.ncei.noaa.gov/sites/default/files/inline-images/RDA_11.jpg
 permalink: /radars/
 toc: true # Works because _layout/radars.html is based on "default" and titles have ids
 ---
