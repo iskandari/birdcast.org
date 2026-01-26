@@ -4,11 +4,11 @@ layout: default
 
 {{ content }}
 
-{% assign radars = site.data.OPERA_RADARS_DB | where_exp: "item", "item contains 'odimcode'" | sort: "odimcode" %}
-{% assign countries = radars | map: "country" | uniq | sort %}
+{% assign radars = site.data.NEXRAD_RADARS_DB | where_exp: "item", "item contains 'odimcode'" | sort: "odimcode" %}
+{% assign states = radars | map: "state" | uniq | sort %}
 
-{% for country in countries %}
-  <h2 id="{{ country | downcase | url_encode }}">{{ country }}</h2>
+{% for state in states %}
+  <h2 id="{{ state | downcase | url_encode }}">{{ state }}</h2>
 
   <table>
     <thead>
@@ -33,7 +33,7 @@ layout: default
         <col width="5%">
       </colgroup>
       {% for radar in radars %}
-        {% if radar.country == country %}
+        {% if radar.state == state %}
         <tr>
           <td id="{{ radar.odimcode | downcase | url_encode }}">
             <a href="#{{ radar.odimcode | downcase | url_encode }}"><code>{{ radar.odimcode }}</code></a>
