@@ -36,7 +36,7 @@ layout: default
         {% if radar.state == state %}
         <tr>
           <td id="{{ radar.odimcode | upcase | url_encode }}">
-            <a href="#{{ radar.odimcode | upcase | url_encode }}"><code>{{ radar.odimcode }}</code></a>
+            <a href="#{{ radar.odimcode | upcase | url_encode }}"><code>{{ radar.odimcode | upcase }}</code></a>
           </td>
           <td{% if radar.status == "0" %} class="text-danger"{% endif %}>
             {{ radar.location }}
