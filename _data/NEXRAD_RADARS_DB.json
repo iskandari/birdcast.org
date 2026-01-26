@@ -3652,7 +3652,7 @@
   {
     "number": "30001938",
     "country": "United States",
-    "state": "",
+    "state": "Overseas Territories",
     "state_code": "",
     "countryid": "LPLA",
     "wmocode": "",
@@ -3852,8 +3852,8 @@
   {
     "number": "30001961",
     "country": "United States",
-    "state": "Guam",
-    "state_code": "GU",
+    "state": "Overseas Territories",
+    "state_code": "",
     "countryid": "PGUA",
     "wmocode": "",
     "odimcode": "pgua",
@@ -3977,7 +3977,7 @@
   {
     "number": "30001967",
     "country": "United States",
-    "state": "",
+    "state": "Overseas Territories",
     "state_code": "",
     "countryid": "RKJK",
     "wmocode": "",
@@ -4002,7 +4002,7 @@
   {
     "number": "30001968",
     "country": "United States",
-    "state": "",
+    "state": "Overseas Territories",
     "state_code": "",
     "countryid": "RKSG",
     "wmocode": "",
@@ -4027,7 +4027,7 @@
   {
     "number": "30001969",
     "country": "United States",
-    "state": "",
+    "state": "Overseas Territories",
     "state_code": "",
     "countryid": "RODN",
     "wmocode": "",
