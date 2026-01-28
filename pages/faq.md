@@ -19,27 +19,25 @@ toc: true
 [uva_vpts]: https://doi.org/10.5281/zenodo.14711244
 [vpts_csv]: /vpts-csv/
 
-## Aloft bucket
+## BirdCast bucket
 
 ### What data are in the bucket?
 
-The [Aloft bucket][aloft_bucket] contains biological data that were created by processing European weather radar data with methods optimized for extracting bird targets ([vol2bird](https://github.com/adokter/vol2bird)). The resulting data are vertical profiles time series of biological targets (VPTS).
+The [BirdCast bucket][aloft_bucket] contains biological data that were created by processing NEXRAD weather radar data with methods optimized for extracting bird targets ([vol2bird](https://github.com/adokter/vol2bird)). The resulting data are vertical profiles time series of biological targets (VPTS).
 
-The bucket contains data from 3 sources:
+The bucket contains data from a single source:
 
-- `baltrad`: Data provided by OPERA member countries. Coverage: 151 radars, from 2012 to now. **Updated daily.** See [Desmet et al. (2025)][data_paper] for details.
-- `uva`: Data processed by the University of Amsterdam as part of several research projects. Coverage: 24 radars in Belgium, Germany and the Netherlands, from 2008 to 2023. See [Desmet et al. (2025)][data_paper] for details.
-- `ecog-04003`: Data processed for migration flyway research. Coverage: 84 radars, in autumn 2016. See [Nilsson and Dokter et al. (2019)][nilsson_revealing_2019] for details.
+- `nexrad`: Data provided by NOAA. Coverage: 163 radars, from 1995 to now. **Updated daily.** See [NEXRAD on AWS)](https://registry.opendata.aws/noaa-nexrad/) for details.
+
 
 ### How often are the data updated?
 
-`baltrad` data are updated daily. HDF5 data are typically available 24 hours after the radar collected the raw data, while daily and monthly summaries are available within 48 hours.
+`nexrad` data are updated continuously; `daily` files are typically available 24 hours after the radar collected the raw data, while `monthly` summaries are available within 48 hours.
 
 ### How are the data organized?
 
 Data are organized in the following hierarchical directories: `source`, `format`, `radar`, `year` (`month` and `day`). All data are available in 3 formats:
 
-- `hdf5`: [HDF5 output][odim_bird_profile] of vol2bird, 1 file per timestamp. Contains extensive metadata.
 - `daily`: [VPTS CSV][vpts_csv] format, 1 file per day.
 - `monthly`: [VPTS CSV][vpts_csv] format, gzipped, 1 file per month. **Recommended download format.**
 
